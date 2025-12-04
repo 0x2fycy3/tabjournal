@@ -4,9 +4,8 @@
   "description": "Content for those who work with Programming and Technology.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
-    "build": "next build && touch out/.nojekyll",
+    "build": "touch out/.nojekyll && next build",
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
